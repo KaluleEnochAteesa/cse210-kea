@@ -1,19 +1,19 @@
 public class Customer
 {
-    private string name;
-    private Address address;
+    private string _name;
+    private Address _address;
 
     public Customer(string name, Address address)
     {
-        this.name = name;
-        this.address = address;
+        _name = name;
+        _address = address;
     }
 
-    public string Name { get => name; }
-    public Address Address { get => address; }
+    public string Name { get => _name; }
+    public Address Address { get => _address; }
 
     public bool IsInUSA()
     {
-        return address.IsInUSA();
+        return _address.IsInUSA();
     }
 }

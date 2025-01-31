@@ -5,13 +5,14 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("Hello World! This is the OnlineOrdering Project.");
         // Create addresses
         var address1 = new Address("123 Main St", "Springfield", "IL", "USA");
         var address2 = new Address("456 Elm St", "Toronto", "ON", "Canada");
 
         // Create customers
-        var customer1 = new Customer("John Doe", address1);
-        var customer2 = new Customer("Jane Smith", address2);
+        var customer1 = new Customer("Jihn Toe", address1);
+        var customer2 = new Customer("Qane Smyth", address2);
 
         // Create products
         var product1 = new Product("Laptop", "P001", 1000m, 1);
