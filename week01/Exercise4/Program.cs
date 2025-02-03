@@ -9,7 +9,7 @@ class Program
         Console.WriteLine("Hello World! This is the Exercise4 Project.");
         List<int> numbers = new List<int>();
         int number;
-
+        
         Console.WriteLine("Enter a list of numbers, type 0 when finished.");
 
         do
