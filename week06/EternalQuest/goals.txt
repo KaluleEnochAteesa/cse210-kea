@@ -1,0 +1,4 @@
+1300
+SimpleGoal|namo|eyuy ssjjs|100|True
+EternalGoal|hssd|hjh asjhjh|1000
+ChecklistGoal|gsgdd|gsjh ajkjs snajs|200|1|0|0

@@ -1,9 +1,19 @@
 using System;
 
-class Program
+namespace GoalManagement
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello World! This is the EternalQuest Project.");
+        
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World! This is the EternalQuest Project.");
+            GoalManager goalManager = new GoalManager();
+            goalManager.LoadGoals("goals.txt"); // Load goals from file
+            goalManager.Start();
+            goalManager.SaveGoals("goals.txt"); // Save goals to file
+        }
     }
+
 }
+
